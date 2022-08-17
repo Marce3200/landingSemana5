@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Plantitas</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<header class="header d-flex flex-column">
+  <nav class="navbar navbar-expand-lg navbar bg-light ">
+    <div class="container-fluid px-4">
+      <a class="navbar-brand-expand-lg" href="#"><img src="./img_logo/LogoPlanta_transparente.png" widht=75px
+          height=75px alt=""></a>
+      <h1>Huerto en casa</h1>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse justify-content-end " id="navbarSupported Content">
+        <section class="letranegra">
+          <ul class="nav botones">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tienda">Tienda</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Más información
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#blog">Blog</a></li>
+                <li><a class="dropdown-item" href="#cursos">Cursos a la medida</a></li>
+              </ul>
+            </li>
+            <li class="nav-item justify-content-end">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </section>
+        <button type="button" class="btn btn-outline-success">Iniciar sesión</button>
+      </div>
+    </div>
+  </nav>
+</header>
+<section>
+  <div class="container-jumbotron">
+    <div class="container-presentacion" id="cursos">
+      <div class="foto"></div>
+      <div class="contacto">
+        <p class="fs-3 justify-content-center">Descubre qué fácil es cultivar tus verduras y hortalizas <br>en tu patio o balcón</p>
+        <p class="fs-2">Listo para comenzar?</p>
+        <div class="d-flex align-content-center justify-content-center">
+          <label for="inputPassword6" class="col-form-label">Email</label>
+          <input type="password" id="inputPassword6" class="form-control mx-3 w-50"
+            aria-describedby="passwordHelpInline">
+          <span id="passwordHelpInline" class="form-text"></span>
+          <button type="button" class="btn btn-success">Enviar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<body>
+  <main>
+    <div class="container-principio">
+      <div class="d-flex">
+        <div class="texto-presentacion">
+          <h5>¿Te gustaría consumir productos naturales y cuidar el medio ambiente? Tener un huerto urbano en tu casa
+            puede ser una solución fácil y económica. La agricultura tiene un impacto enorme en el medio ambiente que se
+            manifiesta de varias formas:
+            Gran parte de la superficie de la tierra se dedica a cultivo.
+            La agricultura consume la mayor parte del agua que se utiliza para el hombre.<br>Los cultivos producen la
+            pérdida de hábitats naturales.<br>
+            Aumenta la contaminación ya que se deben transportar los productos.
+            Contamina el suelo con los fertilizantes y los pesticidas.<br>
+            Con una agricultura sostenible es posible invertir los efectos de la agricultura en el medioambiente y
+            conservar la biodiversidad y los paisajes. <br>Te invitamos a seguir nuestros cursos gratuitos y si quieres,
+            también podemos hacer cursos presenciales a la medida para comunidades!</h5>
+        </div>
+        <div class="img-logo">
+          <img src="./img_logo/LogoPlanta_transparente.png" width="200" height="200" alt="">
+        </div>
+      </div>
+      <div> <a href="" class="cta1">Cursos</a></div>
+    </div>
+    
+    <section class="cards-contenedor" id="tienda">
+      <div>
+        <h2 class="titulo">Tienda</h2>
+      </div>
+      <div class="content-cards">
+        <article class="card">
+            <img class="img-productos" src="./img180x180/huerto_urbano_libro.jpg" alt="">
+            <h3>Huerto urbano para todos</h3>
+            <p> Huerto urbano para todos: Guía completa para cultivar tus propios alimentos en casa (Spanish Edition)
+            </p>
+            <a href="" class="cta"><i class="fa-solid fa-cart-plus"></i></a>
+        </article>
+        <article class="card">
+          <img class="img-productos" src="./img180x180/jardinera_muro.jpg" widht=50px alt="">
+          <h3>Jardinera para muro</h3>
+          <p> Bolsa de cultivo verde para colgar en la pared, maceta Vertical para jardín, vegetales, sala de estar,
+            bolsas de cultivo, </p>
+          <a href="" class="cta">Comprar</a>
+        </article>
+        <article class="card">
+          <img class="img-productos" src="./img180x180/kit_huerta 2.jpg" alt="">
+          <h3>Kit huerta</h3>
+          <p> Cultiva de la forma más cómoda tus propios almácigos para que no te falte nada en tu huerta! Incluye todo
+            lo necesario</p>
+          <a href="" class="cta">Comprar</a>
+        </article>
+        <article class="card">
+          <img class="img-productos" src="./img180x180/libro1.jpg" alt="">
+          <h3>Cómo no matar tus plantas</h3>
+          <p>Cómo no matar tus plantas resuelve todas tus dudas y problemas de jardinería tanto de flores como
+            hortalizas </p>
+          <a href="" class="cta">Comprar</a>
+        </article>
+        <article class="card">   
+            <img class="img-productos" src="./img180x180/huerto_urbano_libro.jpg" alt="">
+            <h3>Huerto urbano para todos</h3>
+            <p> Huerto urbano para todos: Guía completa para cultivar tus propios alimentos en casa (Spanish Edition)
+            </p>
+            <a href="" class="cta">Comprar</a>
+        </article>
+        <article class="card">
+          <img class="img-productos" src="./img180x180/jardinera_muro.jpg" alt="">
+          <h3>Jardinera para muro</h3>
+          <p> Bolsa de cultivo verde para colgar en la pared, maceta Vertical para jardín, vegetales, sala de estar,
+            bolsas de cultivo, </p>
+          <a href="" class="cta">Comprar</a>
+        </article>
+        <article class="card">
+          <img class="img-productos" src="./img180x180/huerto_urbano_libro.jpg" alt="">
+          <h3>Huerto urbano para todos</h3>
+          <p> Huerto urbano para todos: Guía completa para cultivar tus propios alimentos en casa (Spanish Edition)
+          </p>
+          <a href="" class="cta"><i class="fa-solid fa-cart-plus"></i></a>
+      </article>
+      <article class="card">
+        <img class="img-productos" src="./img180x180/jardinera_muro.jpg" widht=50px alt="">
+        <h3>Jardinera para muro</h3>
+        <p> Bolsa de cultivo verde para colgar en la pared, maceta Vertical para jardín, vegetales, sala de estar,
+          bolsas de cultivo, </p>
+        <a href="" class="cta">Comprar</a>
+      </article>
+      <article class="card">
+        <img class="img-productos" src="./img180x180/kit_huerta 2.jpg" alt="">
+        <h3>Kit huerta</h3>
+        <p> Cultiva de la forma más cómoda tus propios almácigos para que no te falte nada en tu huerta! Incluye todo
+          lo necesario</p>
+        <a href="" class="cta">Comprar</a>
+      </article>
+      <article class="card">
+        <img class="img-productos" src="./img180x180/libro1.jpg" alt="">
+        <h3>Cómo no matar tus plantas</h3>
+        <p>Cómo no matar tus plantas resuelve todas tus dudas y problemas de jardinería tanto de flores como
+          hortalizas </p>
+        <a href="" class="cta">Comprar</a>
+      </article>
+      <article class="card">      
+          <img class="img-productos" src="./img180x180/huerto_urbano_libro.jpg" alt="">
+          <h3>Huerto urbano para todos</h3>
+          <p> Huerto urbano para todos: Guía completa para cultivar tus propios alimentos en casa (Spanish Edition)
+          </p>
+          <a href="" class="cta">Comprar</a>
+      </article>
+      <article class="card">
+        <img class="img-productos" src="./img180x180/jardinera_muro.jpg" alt="">
+        <h3>Jardinera para muro</h3>
+        <p> Bolsa de cultivo verde para colgar en la pared, maceta Vertical para jardín, vegetales, sala de estar,
+          bolsas de cultivo, </p>
+        <a href="" class="cta">Comprar</a>
+      </article>
+      </div>
+      <div class="img-verduras">
+        <img src="./fondo_transparente/pngegg.png" widht=200px height=200px alt="">
+      </div>
+    </section>
+    <section class="blog" id="blog">
+      <div class="container-blog">
+        <h2 class="titulo">Blog</h2>
+        <div class="container-articulo ">
+          <div class="articulo">
+            <p class="titulo">Tu huerto en casa: primeros pasos</p>
+            <p>Lo primero que debemos hacer antes de empezar a montar nuestro huerto en casa es decidir qué espacio le
+              asignaremos. Esto es sumamente importante, ya que determinará en gran medida el éxito o el fracaso de
+              nuestro proyecto</p>
+            <img src="./imp prod red/huerto urbano libro.png" alt="">
+          </div>
+          <div class="articulo"></div>
+          <div class="articulo"></div>
+          <div class="articulo"></div>
+        </div>
+      </div>
+    </section>
+    <section class="comentarios">
+      <div class="container-comentarios">
+        <h2 class="titulo">Comentarios</h2>
+        <div class="container-calificacion ">
+          <div class="lechuga">
+            <img src="./fondo_transparente/lechuga.png" widht=20px height=200px alt="">
+          </div>
+          <div class="comentario1">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <p class="comentario-texto">Excelente servicio, la compra llegó el mismo día!</p>
+          </div>
+          <div class="comentario2">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <p class="comentario-texto">Me encanta este sitio, está súper bien programado y navego con mucha facilidad
+              en él</p>
+          </div>
+          <div class="comentario3">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <p class="comentario-texto">Muy útil la información del blog, gracias!</p>
+          </div>
+          <div class="comentario4">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <p class="comentario-texto">La paleta de colores de este sitio es la más linda que visto, muchas gracias!
+            </p>
+          </div>
+          <div class="cometarios5">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <p class="comentario-texto">Está bien pero podrían tener más productos</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contacto-final" id="contacto">
+      <div class="img-tomate"></div>
+      <img src="./fondo_transparente/tomate.png" widht=50px height= 50px alt="">
+      <h2 class="titulo"> Contacto</h2>
+      <div class="contenedor">
+        <form class="form">
+          <input class="input" type="text" name="" id="" placeholder="Nombre">
+          <input class="input" type="email" name="" id="" placeholder="Email">
+          <textarea class="input" name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+          <input class="input" type="submit" value="Enviar">
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <section class="foot">
+      <div class="container-foot">
+        <i class="fa-solid fa-shield-cat"></i>
+        <i class="fa-solid fa-shield-cat"></i>
+        <i class="fa-solid fa-shield-cat"></i>
+      </div>
+      <div class="marca">
+        <p class="marca-texto">@marcedev2022</p>
+      </div>
+    </section>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/1f7262076c.js" crossorigin="anonymous"></script>
+</body>
+</body>
+
+</html>

@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.container-jumbotron{
+    background: #1f4037;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+    display: grid;    
+}
+
+.container-presentacion{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 400px;
+}
+
+.contacto{
+    color: antiquewhite;
+    padding-top: 100px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+.img-tomate{
+    justify-content: center;
+    justify-items: center;
+}
+.foto{
+    background-image:url(https://www.latercera.com/resizer/2ttZq-kGxwk2S7e4fZvroArKpFg=/900x600/smart/cloudfront-us-east-1.images.arcpublishing.com/copesa/KBEGHVGZMJASXCXETMQHUIT564.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.titulo{
+    font-family:'raleway' 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: bold;
+    padding-top: 50px;
+}
+
+.productos{
+    padding-top: 30px;
+    
+}
+
+.prod{
+    padding-top: 15px;
+    padding-left: 20px;
+    color:#196A73 ;
+}
+
+.tienda{
+    color: antiquewhite;
+}
+.login{
+    align-content: flex-start;
+}
+
+
+.letranegra ul li a{
+    color: black;
+}
+
+.container-blog{
+    
+    background-color:#4E733D ;
+    width: 100%;
+    padding: 0 3em;
+    padding-bottom: 70px;
+    
+}
+
+.articulo{
+    background-color: #648C66;
+    height: 400px;
+    width: 100%;
+    border: 3px solid #196A73;
+}
+
+.container-articulo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2em;
+    align-content: center;
+}
+
+.container-productos{
+    background-color:#196A73 ;
+
+    width: 100%;
+    
+    
+}
+   
+.container-comentarios{
+    background-color:#196A73 ;
+    width: 100%;
+    padding: 0 2em;
+    padding-bottom: 50px;
+   
+}
+
+
+
+.opinion{
+    background-color: antiquewhite;
+    height: 100px;
+    width: 100%;
+    border: 1px solid rgb(76, 0, 255);
+}
+
+.contacto-final{
+    background-color: #00ADA2;
+    height: 600px;
+}
+
+.container-principio{
+    background-color:#347025  ;
+    background-image: transparent 50%;
+    
+    padding-left: 100px;  
+    padding-right: 100px; 
+    padding-bottom: 50px;
+}
+
+
+.img-logo{
+    size: 30px;
+    padding-top: 50px;
+    margin-top: 20px;
+}
+
+h5{
+    color: antiquewhite;
+    text-align:start;
+    padding-top: 100px;
+}
+
+h3{
+    font-family: 'raleway';
+    font-weight: bold;
+    font-size: 20px;
+}
+.container-principio2{
+   
+    height: 400px;  
+}
+
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.input{
+    background: transparent;
+    border: 0;
+    color: antiquewhite;
+    outline: none;
+    border: 1px solid white ;
+    padding: 20px 10px;
+}
+
+.input::placeholder{
+    color: antiquewhite;
+    font-family: 'raleway' , 'sanserif';
+
+}
+
+input[type="text"],
+input[type="email"]{
+    display: inline-block;
+    width: 49%;
+    margin-bottom: 30px;
+}
+
+.form textarea{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+input[type="submit"]{
+    width: 120px;
+    text-align: center;
+    padding: 14px 0;
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+    color: green;
+    background: antiquewhite;
+}
+
+.titulo{
+    font-family: 'raleway';
+    color: antiquewhite;
+    font-weight: 300;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+
+
+.cta{
+    display: inline-block;
+    text-decoration: none;
+    background: #FF512F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #F09819, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #F09819, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 12px 15px;
+    border-radius: 8px;
+    color: antiquewhite;
+    margin-bottom: 10px;
+   
+}
+
+.cta1{
+    display: inline-block;
+    text-decoration: none;
+    background: #FF512F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #F09819, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #F09819, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 8px;
+    color: antiquewhite;
+    margin-top: 40px;
+    margin-left: 700px;
+    transform: scale(1);
+    transition: transform 0.6s;
+}
+
+.cta1:hover{
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    transform: scale(1.03);
+    cursor: pointer;
+}
+.cards-contenedor{
+    
+    width: 100%;
+    background-color: #146669;
+    padding: 0 30px;   
+}
+.content-cards{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    gap: 20px;
+}
+
+.card{
+    width: 200px;
+    text-align: center;
+    min-height: 300px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .5);
+    transform: scale(1);
+    transition: transform 0.6s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card:hover{
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.img-productos{
+
+    width: 180px;
+    height: 180px;
+}
+
+.card p{
+font-weight: 300;
+font-size: 12px;
+margin-bottom: 10px;
+flex:1; /*ocupar espacio disponible*/
+
+
+}
+
+/* ICONOS COMPRAS REVISAR */
+.img-productos a i{
+    padding: 100px;
+}
+
+.img-verduras{
+    justify-content: last baseline;
+    align-content: flex-end;
+
+  
+       
+}
+.container-calificacion{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 2em;
+   
+}
+.lechuga{
+    margin-left: 0;
+   
+}
+.foot{
+    display: flex;
+    background-color: #49b985;
+    height: 130px;
+    width: 100%;
+
+}
+
+.container-comentarios i{
+
+    color: yellow;
+}
+
+.comentario-texto{
+    color: antiquewhite;
+}
+
+
+.container-foot{
+    display: flex;
+    width: 100%
+;
+
+
+}
+.container-foot i{
+    margin-top: 40px;
+    margin-left: 50px;
+    color: #14691f;
+    font-size: 60px;
+    justify-content:end;
+}
+
+.marca{
+    margin-top: 60px;
+    justify-content: center;
+    align-content: center;
+    padding-right: 100px;
+}
+
+
+/* Hacer medias queries */
+
+@media screen and (max-width:500px) {
+    .container-articulo{
+        grid-template-columns: 1fr;
+      
+    
+    }  
+}
+
+@media screen  and (max-width: 400px){
+    .cards-contenedor{
+        grid-template-columns: 1fr
+
+    }
+}
+    
