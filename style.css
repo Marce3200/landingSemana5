@@ -38,15 +38,15 @@ body{
 
 .contacto{
     color: antiquewhite;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-right: 50px;
     text-align: center;
 }
 
-.img-tomate{
-    justify-content: center;
-    justify-items: center;
-}
+
+
+
+
 .foto{
     background-image:url(https://www.latercera.com/resizer/2ttZq-kGxwk2S7e4fZvroArKpFg=/900x600/smart/cloudfront-us-east-1.images.arcpublishing.com/copesa/KBEGHVGZMJASXCXETMQHUIT564.jpg);
     background-repeat:no-repeat;
@@ -54,6 +54,8 @@ body{
     background-size: cover;
     
 }
+
+.
 
 .titulo{
     font-family:'raleway' 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -81,7 +83,7 @@ body{
 
 
 .letranegra ul li a{
-    color: black;
+    color: green;
 }
 
 
@@ -162,7 +164,7 @@ body{
 }
 
 h1{
-    margin-top: 50px;
+    margin-top: 0;
     margin-left: 50px;
 }
 
@@ -182,6 +184,17 @@ h3{
    
     height: 400px;  
 }
+
+.lista-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+
+
+}
+
 
 
 .form{
@@ -257,6 +270,10 @@ input[type="submit"]:hover{
    
 }
 
+.carrousel.titulo{
+        color: antiquewhite;
+
+}
 .cta1{
     display: inline-block;
     text-decoration: none;
@@ -270,7 +287,7 @@ input[type="submit"]:hover{
     border-radius: 8px;
     color: antiquewhite;
     margin-top: 40px;
-    margin-left: 700px;
+    margin-left: 655px;
     transform: scale(1);
     transition: transform 0.6s;
 }
@@ -280,11 +297,34 @@ input[type="submit"]:hover{
     transform: scale(1.03);
     cursor: pointer;
 }
+
+.cta2{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #96c93d;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 8px;
+    color: antiquewhite;
+    margin-top: 40px;
+    margin-left: 660px;
+    transform: scale(1);
+    transition: transform 0.6s;
+}
+
+.cta2:hover{
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
 .cards-contenedor{
     
     width: 100%;
     background-color: #146669;
-    padding: 0 30px;   
+    padding: 0 100px;   
 }
 .content-cards{
     display: flex;
@@ -318,6 +358,7 @@ input[type="submit"]:hover{
 
     width: 180px;
     height: 180px;
+    padding-top: 20px;
 }
 
 .card p{
@@ -344,8 +385,7 @@ flex:1; /*ocupar espacio disponible*/
 .container-calificacion{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 2em;
-   
+    gap: 2em;  
 }
 
 .img-tomate{
@@ -353,7 +393,7 @@ flex:1; /*ocupar espacio disponible*/
         justify-content: flex-end;
         position: relative;
         height: 180px;
-        top: 450px;
+        top: 150px;
         right: 60px;
         z-index: 10;
            
@@ -367,7 +407,6 @@ flex:1; /*ocupar espacio disponible*/
 }
 
 .container-comentarios i{
-
     color: yellow;
 }
 
