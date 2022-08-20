@@ -8,7 +8,6 @@ body{
     margin: 0 auto;
     font-family: 'Raleway', sans-serif;
     width: 80%;
-
 }
 
 .container-jumbotron{
@@ -35,7 +34,6 @@ body{
     padding-bottom: 70px;
 }
 
-
 .contacto{
     color: antiquewhite;
     padding-top: 50px;
@@ -43,19 +41,12 @@ body{
     text-align: center;
 }
 
-
-
-
-
 .foto{
     background-image:url(https://www.latercera.com/resizer/2ttZq-kGxwk2S7e4fZvroArKpFg=/900x600/smart/cloudfront-us-east-1.images.arcpublishing.com/copesa/KBEGHVGZMJASXCXETMQHUIT564.jpg);
     background-repeat:no-repeat;
     background-position: center;
-    background-size: cover;
-    
+    background-size: cover; 
 }
-
-.
 
 .titulo{
     font-family:'raleway' 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -64,8 +55,7 @@ body{
 }
 
 .productos{
-    padding-top: 30px;
-    
+    padding-top: 30px;   
 }
 
 .prod{
@@ -77,16 +67,14 @@ body{
 .tienda{
     color: antiquewhite;
 }
+
 .login{
     align-content: flex-start;
 }
 
-
 .letranegra ul li a{
     color: green;
 }
-
-
 
 .articulo{
     background-color: #648C66;
@@ -104,26 +92,20 @@ body{
 
 .container-productos{
     background-color:#196A73 ;
-
-    width: 100%;
-    
-    
+    width: 100%;  
 }
    
 .container-comentarios{
     background-color:#196A73 ;
     width: 100%;
     padding: 0 2em;
-    padding-bottom: 50px;
-    
+    padding-bottom: 50px; 
 }
 
 .tomate-div{
     position: relative;
     top: -100px;
     z-index: 1;
-
-
 }
 
 .opinion{
@@ -134,25 +116,17 @@ body{
 }
 
 .contacto-final{
-
     background-color: #00ADA2;
-    
-   
-
 }
 
 .container-principio{
- 
-
     background-color:#347025  ;
     background-image: transparent 50%;
-    
     padding-left: 100px;  
     padding-right: 100px; 
     padding-bottom: 50px;
 }
-
-
+ 
 .img-logo{
     size: 30px;
     padding-top: 50px;
@@ -423,6 +397,7 @@ flex:1; /*ocupar espacio disponible*/
 
 }
 .container-foot i{
+    background-clip: ;
     margin-top: 40px;
     margin-left: 50px;
     color: #14691f;
