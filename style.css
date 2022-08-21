@@ -11,10 +11,6 @@ body {
 }
 
 .container-jumbotron {
-
-
-
-  
   background: #1f4037; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -132,7 +128,7 @@ body {
 
 .contacto-final {
   display: grid;
-  
+
   background-color: #00ada2;
 }
 
@@ -148,7 +144,6 @@ body {
 /* }  */
 .presentacion2 {
   display: grid;
-
   grid-auto-rows: 25rem;
   grid-template-columns: (auto-fill, minmax(min(100%, 25rem), 1fr));
 }
@@ -288,45 +283,14 @@ input[type="submit"]:hover {
   color: antiquewhite;
 }
 
-.logo-presentacion{
+.logo-presentacion {
   display: flex;
   text-align: center;
-
-
 }
-.cta1-boton{
+.cta1-boton {
   display: flex;
-justify-content: center;
-
-
-
-}
-/*.cta1-boton {
-  
-  
-  text-decoration: none;
-  background: #ff512f; 
-  background: -webkit-linear-gradient(
-    to top,
-    #f09819,
-    #ff512f
-  ); 
-  background: linear-gradient(
-    to top,
-    #f09819,
-    #ff512f
-  ); 
-  padding-left: 70px;
   justify-content: center;
-  padding-right: 70px;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  border-radius: 8px;
-  color: antiquewhite;
-  margin-top: 40px;
-  transform: scale(1);
-  transition: transform 0.6s;
-} */+
+}
 
 .cta1-boton:hover {
   box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
@@ -445,16 +409,28 @@ justify-content: center;
 }
 
 .container-foot {
-  display: flex;
-  width: 100%;
-}
-.container-foot i {
   
+  
+}
+
+.container-foot i {
   margin-top: 40px;
   margin-left: 50px;
   color: #14691f;
   font-size: 60px;
   justify-content: end;
+}
+.footer{
+  display: grid;
+  grid-auto-rows: 25rem;
+  grid-template-columns: (auto-fill, minmax(min(100%, 25rem), 1fr));
+
+
+}
+.info-contacto{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .marca {
@@ -490,16 +466,15 @@ justify-content: center;
 }
 @media screen and (min-widht: 400px) {
   .cta1-boton {
-  display: inline-block;
-  text-decoration: none;
-  padding: 50px 15px;
-  border-radius: 8px;
-  margin-bottom: 10px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 50px 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
   }
-  .img-tomate{
-     height: 50px;
-     width: 50px;
-
+  .img-tomate {
+    height: 50px;
+    width: 50px;
   }
 }
 @media screen and (min-widht: 400px) {
