@@ -368,17 +368,16 @@ input[type="submit"]:hover {
   font-weight: 300;
   font-size: 12px;
   margin-bottom: 10px;
-  flex: 1; /*ocupar espacio disponible*/
+  flex: 1; 
 }
 
-/* ICONOS COMPRAS REVISAR */
+
 .img-productos a i {
   padding: 100px;
 }
 
 .img-verduras {
-  width: 20%;
-  height: 20%;
+ 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -432,35 +431,6 @@ input[type="submit"]:hover {
   align-items: flex-end;
 }
 
-@media screen and (max-width: 500px) {
-  .container-articulo {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .cards-contenedor {
-    grid-template-columns: 1fr;
-  }
-}
-
-
-
-@media screen and (max-widht: 496px) {
-  .cards-contenedor {
-    padding: 0 100px;
-  }
-}
-@media screen and (min-widht: 400px) {
-  .cta1-boton {
-    display: inline-block;
-    text-decoration: none;
-    padding: 50px 15px;
-    border-radius: 8px;
-    margin-bottom: 10px;
-  }
-  
-}
 
 
 .box-sizing {
@@ -519,7 +489,7 @@ ul {
 }
 
 .contact-form form p {
-  margin: 0;
+  
   padding: 1em;
 }
 
@@ -556,6 +526,7 @@ ul {
 
 .contact-info {
   background: rgb(37, 187, 192);
+  padding-right: 10px;
 }
 
 .contact-info h4,
@@ -576,7 +547,7 @@ ul {
   margin: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 50px;
+  grid-gap: 30px;
   padding: 45px 0px;
 }
 
@@ -627,10 +598,10 @@ ul {
   font-size: 15px;
   color: antiquewhite;
 }
-@media scrren and (min-widht: 400px) {
+@media scrren and (max-widht: 800px) {
   .pie-pagina .grupo-1 {
     width: 90%;
-    grid-template-columns: repeat (1, 1fr); /*no sé porqué no me agarra*/
+    grid-template-columns: repeat (1, 1fr); /*no sé porqué no funciona!!!*/
     grid-gap: 30px;
     padding: 35px 0px;
   }
@@ -660,4 +631,33 @@ ul {
     top: 20px;
     
   }
+}
+@media screen and (max-width: 500px) {
+  .container-articulo {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .cards-contenedor {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+@media screen and (max-widht: 496px) {
+  .cards-contenedor {
+    padding: 0 100px;
+  }
+}
+@media screen and (min-widht: 400px) {
+  .cta1-boton {
+    display: inline-block;
+    text-decoration: none;
+    padding: 50px 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
 }
